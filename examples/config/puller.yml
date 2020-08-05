@@ -1,0 +1,51 @@
+#Kafka service list
+kafka:
+  - 127.0.0.1:9092
+
+#Zookeeper service list
+zookeeper:
+  - 127.0.0.1:2181
+
+#Zookeeper service
+redis: 127.0.0.1:6379
+
+#Puller theme.
+#That only supports configuring one theme
+topic: test_app
+
+#Puller group name.
+#It needs to be unique, multiple consumers share a group
+group_name: test_app
+
+#Message consumption mode.
+#You can choose the mode 0 or 1.
+#0: consumption information from the beginning 1: consumption from the latest message record
+cmode: 1
+
+#The failed message will be saved to zookeeper.
+#If the save fails, it will retry zk_retry_times times.
+#You can change the number of retries through this parameter
+zk_retry_times: 3
+
+#The rate of message consumption.
+#It will limit your message consumption rate.
+#If necessary, you can increase this value, but it is not recommended to be too large,it will cause service pressure
+wnd: 12
+
+#The maximum number of retries for a message.
+#If this value is exceeded, it will be saved to zookeeper
+msg_max_retry: 2
+
+#Message delay time, in units of seconds.
+#It will allow your message to be delayed in consumption
+msg_delay: 0
+
+#The size of the time wheel, which acts on the message delay
+time_wheel_size: 10
+
+#The offset of the message is automatically submitted time
+offset_ct_time: 1
+
+#Consumer application list
+services:
+  - test-app.yml

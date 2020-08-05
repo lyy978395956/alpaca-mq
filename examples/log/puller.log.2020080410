@@ -1,0 +1,7 @@
+time="2020-08-04 10:48:35" level=warning msg="Rebalanced: [0xc00012aca0]\n" func="github.com/alpaca.(*Logger).Warnf" file="/Users/leiyuya/go/alpaca-mq/alpaca/log.go:58"
+time="2020-08-04 10:48:35" level=warning msg="Rebalanced: [0xc00000e080]\n" func="github.com/alpaca.(*Logger).Warnf" file="/Users/leiyuya/go/alpaca-mq/alpaca/log.go:58"
+time="2020-08-04 10:55:54" level=warning msg="Rebalanced: [0xc00000e0a0]\n" func="github.com/alpaca.(*Logger).Warnf" file="/Users/leiyuya/go/alpaca-mq/alpaca/log.go:58"
+time="2020-08-04 10:55:54" level=warning msg="Rebalanced: [0xc00022c0e0]\n" func="github.com/alpaca.(*Logger).Warnf" file="/Users/leiyuya/go/alpaca-mq/alpaca/log.go:58"
+time="2020-08-04 10:59:33" level=warning msg="Rebalanced: [0xc00000e280]\n" func="github.com/alpaca.(*Logger).Warnf" file="/Users/leiyuya/go/alpaca-mq/alpaca/log.go:58"
+time="2020-08-04 10:59:33" level=warning msg="Rebalanced: [0xc0001a2360]\n" func="github.com/alpaca.(*Logger).Warnf" file="/Users/leiyuya/go/alpaca-mq/alpaca/log.go:58"
+time="2020-08-04 10:59:44" level=warning msg="Rebalanced: [0xc000182040]\n" func="github.com/alpaca.(*Logger).Warnf" file="/Users/leiyuya/go/alpaca-mq/alpaca/log.go:58"
